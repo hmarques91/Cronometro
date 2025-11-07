@@ -43,8 +43,4 @@ Este projeto é um **cronômetro funcional** desenvolvido com **HTML, CSS e Java
 
 --- 
 
-## 👨‍💻 Autor
-
-**Helmilton Marques**  
-📎 [GitHub: hmarques91](https://github.com/hmarques91)
 
