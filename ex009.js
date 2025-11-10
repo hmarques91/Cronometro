@@ -47,17 +47,26 @@ function iniciaCronometro (){
 };
 
 function pausarCronometro (){
-   if (timer) {
+    if (segundos === 0 && minutos === 0 && horas === 0 && !timer) {
+        return;
+    }
+
+   
+    if (timer) {
     clearInterval(timer);
     timer = null;
     pausar.textContent = 'Retornar';
     pausar.classList.add('alerta');
     iniciar.disabled = true;
 
+    
+    
+
     } else {
         timer = setInterval(iniciarTela, 1000);
         pausar.textContent = 'Pausar';
         pausar.classList.remove('alerta');
+        
         
            }
 };
